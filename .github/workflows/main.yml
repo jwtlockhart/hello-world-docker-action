@@ -10,6 +10,6 @@ jobs:
         uses: jwtlockhart/hello-world-docker-action@main
         with:
           who-to-greet: 'Mona the Octocat'
-      # Use the output from the `hello` step add text here
+      # Use the output from the `hello` step 
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"
